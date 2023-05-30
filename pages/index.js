@@ -281,6 +281,7 @@ export default function Home() {
                   src={linkedinClone}
                   fit={true}
                   style={{ objectFit: "cover" }}
+                  alt="LinkedIn Clone"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
@@ -317,6 +318,7 @@ export default function Home() {
                   src={chatgpt}
                   fit={true}
                   style={{ objectFit: "cover" }}
+                  alt="ChatGPT Clone"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
@@ -352,6 +354,7 @@ export default function Home() {
                   src={sortingVisualizer}
                   fit={true}
                   style={{ objectFit: "cover" }}
+                  alt="Sorting Visualizer"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
@@ -390,6 +393,7 @@ export default function Home() {
                   src={exerciseTracker}
                   fit={true}
                   style={{ objectFit: "cover" }}
+                  alt="Exercise Tracker"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
@@ -427,6 +431,7 @@ export default function Home() {
                   src={nextjsBlog}
                   fit={true}
                   style={{ objectFit: "cover" }}
+                  alt="Next.js Blog"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
@@ -459,6 +464,7 @@ export default function Home() {
                   src={sampleCalculator}
                   fit={true}
                   style={{ objectFit: "cover" }}
+                  alt="Sample Size Calculator"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
