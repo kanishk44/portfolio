@@ -117,14 +117,14 @@ export default function Home() {
         <section className="mt-16">
           <div>
             <h2 className="text-3xl text-center font-medium py-10 pb-2 dark:text-gray-100">
-              Hey there! I'm Kanishk...
+              Hey there! I&apos;m Kanishk...
             </h2>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-300">
               I have recently graduated from New Jersey Institute of Technology
-              with a degree in Computer Science. I'm a self taught developer
-              with over 3 years of experience in software development. I'm
-              always eager to build software which would help people in their
-              day to day life.
+              with a degree in Computer Science. I&apos;m a self taught
+              developer with over 3 years of experience in software development.
+              I&apos;m always eager to build software which would help people in
+              their day to day life.
               <br />
               Back in 2016, I decided to pursue a career in computer science.
               Fast-forward to today, I have had the privilege of working to
@@ -133,7 +133,7 @@ export default function Home() {
               product managers. In a recent project, I performed various roles
               such as a developer, data architect and team lead. I got to learn
               a lot about the software development life cycle, agile
-              methodologies and how to build a product from scratch. I'm
+              methodologies and how to build a product from scratch. I&apos;m
               currently looking for full time opportunities as a software
               engineer.
               <br />
