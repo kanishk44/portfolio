@@ -43,9 +43,10 @@ import linkedinClone from "../public/linkedin-clone.png";
 import exerciseTracker from "../public/exercise-tracker.png";
 import sampleCalculator from "../public/sample-size.png";
 import { useState } from "react";
+import Timeline from "@/components/timeline";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -495,6 +496,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <Timeline darkMode={darkMode} />
+
         <footer className="flex flex-col items-center justify-center w-full h-24 border-t dark:border-gray-700">
           <p className="text-gray-600 dark:text-gray-200">
             Coded in Visual Studio Code, Built using Next.js and TailwindCSS.
