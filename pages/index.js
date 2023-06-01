@@ -44,11 +44,15 @@ import exerciseTracker from "../public/exercise-tracker.png";
 import sampleCalculator from "../public/sample-size.png";
 import { useState } from "react";
 import Timeline from "@/components/timeline";
+import resumePDF from "../public/KanishkShedsaleResume.pdf";
 
 export default function Home() {
+  const handleResumeDownload = () => {
+    window.open(resumePDF, "_blank");
+  };
   const [darkMode, setDarkMode] = useState(true);
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={darkMode ? "dark " : ""}>
       <Head>
         <title>Kanishk Shedsale Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -72,6 +76,7 @@ export default function Home() {
                 <a
                   className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 to-emerald-500 text-white px-4 py-2 rounded-md ml-8"
                   href="#"
+                  onClick={handleResumeDownload}
                 >
                   Resume
                 </a>
@@ -92,16 +97,19 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <a href="" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/kanishk-shedsale/"
+              target="_blank"
+            >
               <AiFillLinkedin className="text-blue-500 cursor-pointer" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://github.com/kanishk44" target="_blank">
               <AiFillGithub className="dark: text-gray-700 dark:text-slate-100 cursor-pointer" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://kanishkwrites.hashnode.dev/" target="_blank">
               <SiHashnode className="text-violet-700 cursor-pointer" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://twitter.com/kanishk_777" target="_blank">
               <AiFillTwitterCircle className="text-sky-400 cursor-pointer" />
             </a>
           </div>
@@ -139,8 +147,17 @@ export default function Home() {
               engineer.
               <br />
               Want to find out more about my experience? Check out my{" "}
-              <span className="text-teal-500">resume </span>
-              and <span className="text-teal-500">projects</span> I have made.
+              <span
+                onClick={handleResumeDownload}
+                className="text-teal-500 cursor-pointer"
+              >
+                resume{" "}
+              </span>
+              and{" "}
+              <a href="#projects" className="text-teal-500 cursor-pointer">
+                projects
+              </a>{" "}
+              I have made.
             </p>
           </div>
           <div>
@@ -267,7 +284,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section id="projects">
           <h2 className="text-3xl text-center py-10 dark:text-slate-50">
             Projects
           </h2>
