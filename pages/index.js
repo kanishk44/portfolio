@@ -41,10 +41,11 @@ import chatgpt from "../public/chatgpt.png";
 import sortingVisualizer from "../public/sorting-viz.png";
 import linkedinClone from "../public/linkedin-clone.png";
 import exerciseTracker from "../public/exercise-tracker.png";
-import sampleCalculator from "../public/sample-size.png";
+import weather from "../public/weather.png";
 import { useState } from "react";
 import Timeline from "@/components/timeline";
 import resumePDF from "../public/KanishkShedsaleResume.pdf";
+import portfolio from "../public/portfolio.png";
 
 export default function Home() {
   const handleResumeDownload = () => {
@@ -403,7 +404,7 @@ export default function Home() {
             </div>
             <div className="shadow-lg rounded-xl text-center">
               <a
-                href="https://fcc-exercisetracker.kanishk44.repl.co/"
+                href="https://github.com/kanishk44/fcc-exercise-tracker"
                 className="text-teal-600"
                 target="_blank"
               >
@@ -441,27 +442,65 @@ export default function Home() {
             </div>
             <div className="shadow-lg rounded-xl text-center">
               <a
-                href="https://nextjs-blog-flame-chi-19.vercel.app/"
+                href="https://kanishkcodes.co"
                 className="text-teal-600"
                 target="_blank"
               >
                 <Image
-                  src={nextjsBlog}
+                  src={portfolio}
+                  fit={true}
+                  style={{ objectFit: "cover" }}
+                  alt="Porfolio Website"
+                />
+                <div className="p-5">
+                  <h3 className="text-2xl font-bold dark:text-emerald-300">
+                    Portfolio (This Website)
+                  </h3>
+                  <p className="text-gray-800 py-2 dark:text-slate-200">
+                    This is my portfolio website built with Next.js and
+                    TailwindCSS. It is hosted on Vercel.
+                  </p>
+                  <div className="flex flex-row gap-2 justify-between">
+                    <a
+                      href="https://github.com/kanishk44/portfolio"
+                      className="text-teal-600"
+                      target="_blank"
+                    >
+                      <AiFillGithub className="text-2xl" />
+                    </a>
+                    <span className="flex flex-row gap-6">
+                      <SiPython className="text-2xl" />
+                      <SiFlask className="text-2xl" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="shadow-lg rounded-xl text-center">
+              <a
+                href="https://github.com/kanishk44/skycast"
+                className="text-teal-600"
+                target="_blank"
+              >
+                <Image
+                  src={weather}
                   fit={true}
                   style={{ objectFit: "cover" }}
                   alt="Next.js Blog"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    Next.js Blog
+                    SkyCast
                   </h3>
                   <p className="text-gray-800 py-2 dark:text-slate-200">
-                    A blog built with Next.js and TailwindCSS. It uses Next.js
-                    built-in API routes to fetch data from MongoDB.
+                    This project is a weather application built with React.js.
+                    The application retrieves the current weather and forecast
+                    data from the OpenWeatherMap API based on the user's
+                    location.
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
-                      href="https://github.com/kanishk44/nextjs-blog"
+                      href="https://github.com/kanishk44/skycast"
                       className="text-teal-600"
                       target="_blank"
                     >
@@ -471,41 +510,6 @@ export default function Home() {
                       <SiNextdotjs className="text-2xl" />
                       <SiTailwindcss className="text-2xl" />
                       <SiMongodb className="text-2xl" />
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="shadow-lg rounded-xl text-center">
-              <a href="#" className="text-teal-600" target="_blank">
-                <Image
-                  src={sampleCalculator}
-                  fit={true}
-                  style={{ objectFit: "cover" }}
-                  alt="Sample Size Calculator"
-                />
-                <div className="p-5">
-                  <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    Sample Size Calculator
-                  </h3>
-                  <p className="text-gray-800 py-2 dark:text-slate-200">
-                    This is a sample size calculator built with Flask which is
-                    used to calculate the sample size required for a given
-                    population size, confidence level, and margin of error. The
-                    project gave me a good understanding of OOP, SOLID
-                    principles, and unit testing.
-                  </p>
-                  <div className="flex flex-row gap-2 justify-between">
-                    <a
-                      href="https://github.com/kanishk44/sample-generator-statistics"
-                      className="text-teal-600"
-                      target="_blank"
-                    >
-                      <AiFillGithub className="text-2xl" />
-                    </a>
-                    <span className="flex flex-row gap-6">
-                      <SiPython className="text-2xl" />
-                      <SiFlask className="text-2xl" />
                     </span>
                   </div>
                 </div>
