@@ -495,7 +495,7 @@ export default function Home() {
                   <p className="text-gray-800 py-2 dark:text-slate-200">
                     This project is a weather application built with React.js.
                     The application retrieves the current weather and forecast
-                    data from the OpenWeatherMap API based on the user's
+                    data from the OpenWeatherMap API based on the user&apos;s
                     location.
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
