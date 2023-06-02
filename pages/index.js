@@ -254,7 +254,7 @@ export default function Home() {
                 </span> */}
                 <span className="flex flex-row items-center gap-1">
                   <SiPlanetscale className="text-3xl py-1" />
-                  <p className="text-gray-800 py-1">PlanetScale</p>
+                  <p className="py-1">PlanetScale</p>
                 </span>
               </div>
             </div>
