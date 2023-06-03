@@ -140,12 +140,12 @@ export default function Home() {
               Fast-forward to today, I have had the privilege of working to
               build software for a startup, gain experience in building
               web-apps, working with a team of developers, designers, and
-              product managers. In a recent project, I performed various roles
-              such as a developer, data architect and team lead. I got to learn
-              a lot about the software development life cycle, agile
-              methodologies and how to build a product from scratch. I&apos;m
-              currently looking for full time opportunities as a software
-              engineer.
+              product managers. In a recent academic project at NJIT, I
+              performed various roles such as a developer, data architect and
+              team lead. I got to learn a lot about the software development
+              life cycle, agile methodologies and how to build a product from
+              scratch. I&apos;m currently looking for full time opportunities as
+              a software engineer.
               <br />
               Want to find out more about my experience? Check out my{" "}
               <span
