@@ -136,16 +136,30 @@ export default function Home() {
               I&apos;m always eager to build software which would help people in
               their day to day life.
               <br />
-              Back in 2016, I decided to pursue a career in computer science.
-              Fast-forward to today, I have had the privilege of working to
-              build software for a startup, gain experience in building
-              web-apps, working with a team of developers, designers, and
-              product managers. In a recent academic project at NJIT, I
-              performed various roles such as a developer, data architect and
-              team lead. I got to learn a lot about the software development
-              life cycle, agile methodologies and how to build a product from
-              scratch. I&apos;m currently looking for full time opportunities as
-              a software engineer.
+              Throughout my academic journey and practical experience, I have
+              developed a solid foundation in software development principles
+              and gained proficiency in various programming languages and
+              frameworks mentioned in my resume. During my university studies, I
+              had the opportunity to work extensively as a team lead, data
+              architect, and developer, where I worked with our professor as a
+              stakeholder to build a healthcare product (a web-app) in which we
+              worked together as a team of five to gather requirements, identify
+              various personas, create user stories and product backlog items
+              and work towards it, along with other teams in class assigned
+              different parts of the project. We faced multiple challenges while
+              integrating the API’s, database schemas, but I got to learn a lot
+              about what it is like to build a product from scratch using agile
+              methodologies, working with cross-functional teams and
+              stakeholders, managing my own team.
+              <br />
+              When I worked in India as a frontend developer at Vidushi Infotech
+              SSP, I gained experience in developing, debugging, and maintaining
+              code in a fast-paced startup environment using frontend
+              technologies like HTML, SASS, JavaScript, jQuery. I am a fast
+              learner with a strong aptitude for quickly adapting to new
+              technologies. I have a track record of independently acquiring new
+              skills and frameworks as needed to deliver high-quality software
+              solutions.
               <br />
               Want to find out more about my experience? Check out my{" "}
               <span

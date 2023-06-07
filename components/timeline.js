@@ -64,10 +64,12 @@ const Timeline = ({ darkMode }) => {
             Ying Wu College of Computing
           </h4>
           <p>
-            Assisted students with their assignments and projects in the
-            Operating Systems course. Helped students to understand how to build
-            Linux Kernel Modules, and write Bash scripts, and solve homework
-            problems.
+            Worked closely with the course instructor to ideate & design lab
+            assignments for linux kernel programming Guided students during lab
+            assignments related to building linux kernel and writing simple
+            kernel modules Helped students in homework problems related to OS
+            concepts such as scheduling, memory management, deadlock, and
+            paging, etc
           </p>
         </VerticalTimelineElement>
 
@@ -112,10 +114,11 @@ const Timeline = ({ darkMode }) => {
             Frontend Developer
           </h4>
           <p>
-            Developed and maintained and shipped production code for in-house
-            and client websites primarily using HTML, CSS, Sass, JavaScript, and
-            Bootstrap/jQuery using a headless CMS. Tested code for cross-browser
-            compatibility and responsiveness.
+            Collaborated with teams across design, tech, and product in a
+            fast-paced startup environment. Developed, documented and maintained
+            code for in-house and client websites using HTML, SCSS, Bootstrap,
+            JavaScript and jQuery. Tested sites in various browsers and devices
+            to ensure cross-browser compatibility and responsiveness.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
