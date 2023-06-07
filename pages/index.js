@@ -321,9 +321,11 @@ export default function Home() {
                     LinkedIn Clone
                   </h3>
                   <p className="text-gray-800 py-2 dark:text-slate-200">
-                    A LinkedIn clone built with React, Firebase, which has
-                    features such as creating posts, liking, commenting,
-                    connecting with other users, etc.
+                    Set up authentication using Firebase, and built a React app,
+                    for login, register, creating/updating profile, adding
+                    profile picture, creating/updating/deleting posts, liking
+                    and commenting, adding connections, and user search
+                    functionality.
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
@@ -397,8 +399,8 @@ export default function Home() {
                     A sorting visualizer built with React, Styled Components
                     andZustland. It visualizes the sorting process of various
                     sorting algorithms such as Bubble Sort, Merge Sort, Quick
-                    Sort, etc, and compares their time complexities, swpas, and
-                    comparisons.
+                    Sort, and more, and compares their time taken, number of
+                    swpas, and comparisons.
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
@@ -433,9 +435,11 @@ export default function Home() {
                     Exercise Tracker
                   </h3>
                   <p className="text-gray-800 py-2 dark:text-slate-200">
-                    This is a simple exercise tracker microservice built with
-                    Node.js, Express, and MongoDB. It allows users to create new
-                    users and add exercises to their log.
+                    This project is a part of FreeCodeCamp's Back End
+                    Development and APIs certification. It is a simple web
+                    application that allows users to create an account, log
+                    exercises, and track their exercise progress. It is
+                    developed using Node.js, Express, and MongoDB.
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
@@ -507,10 +511,10 @@ export default function Home() {
                     SkyCast
                   </h3>
                   <p className="text-gray-800 py-2 dark:text-slate-200">
-                    This project is a weather application built with React.js.
-                    The application retrieves the current weather and forecast
-                    data from the OpenWeatherMap API based on the user&apos;s
-                    location.
+                    A simple weather application built with React & Semantic UI
+                    react library. Retrieved the current weather and forecast
+                    data like temperature, humidity, sunrise, and sunset from
+                    the OpenWeatherMap API based on the user's location
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
