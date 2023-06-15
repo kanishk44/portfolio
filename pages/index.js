@@ -44,7 +44,7 @@ import exerciseTracker from "../public/exercise-tracker.png";
 import weather from "../public/weather.png";
 import { useState } from "react";
 import Timeline from "@/components/timeline";
-import resumePDF from "../public/KanishkShedsaleResume.pdf";
+import resumePDF from "../public/Kanishk_Shedsale_Resume.pdf";
 import portfolio from "../public/portfolio.png";
 
 export default function Home() {
