@@ -93,7 +93,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-slate-200">
               I build beautiful and scalable web applications using the latest
-              technologies and web frameworks, lets connect and explore
+              technolgies and web frameworks, lets connect and explore
               opportunities to work together!
             </p>
           </div>
@@ -420,7 +420,7 @@ export default function Home() {
             </div>
             <div className="shadow-lg rounded-xl text-center">
               <a
-                href="https://github.com/kanishk44/fcc-exercise-tracker"
+                href="https://project-exercisetracker.kanishk44.repl.co/"
                 className="text-teal-600"
                 target="_blank"
               >

@@ -69,7 +69,7 @@ const Timeline = ({ darkMode }) => {
             assignments related to building linux kernel and writing simple
             kernel modules Helped students in homework problems related to OS
             concepts such as scheduling, memory management, deadlock, and
-            paging, etc
+            paging, etc.
           </p>
         </VerticalTimelineElement>
 
