@@ -435,7 +435,7 @@ export default function Home() {
                     Exercise Tracker
                   </h3>
                   <p className="text-gray-800 py-2 dark:text-slate-200">
-                    This project is a part of FreeCodeCamp's Back End
+                    This project is a part of FreeCodeCamp&apos;s Back End
                     Development and APIs certification. It is a simple web
                     application that allows users to create an account, log
                     exercises, and track their exercise progress. It is
@@ -514,7 +514,7 @@ export default function Home() {
                     A simple weather application built with React & Semantic UI
                     react library. Retrieved the current weather and forecast
                     data like temperature, humidity, sunrise, and sunset from
-                    the OpenWeatherMap API based on the user's location
+                    the OpenWeatherMap API based on the user&apos;s location
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
