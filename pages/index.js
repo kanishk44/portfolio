@@ -32,7 +32,6 @@ import {
   SiMongodb,
   SiPostgresql,
   SiFirebase,
-  SiGraphql,
 } from "react-icons/si";
 import Image from "next/image";
 import devkanishk from "../public/dev-kanishk-avatar.webp";
@@ -40,7 +39,7 @@ import nextjsBlog from "../public/nextjs-blog.png";
 import chatgpt from "../public/chatgpt.png";
 import sortingVisualizer from "../public/sorting-viz.png";
 import linkedinClone from "../public/linkedin-clone.png";
-import exerciseTracker from "../public/exercise-tracker.png";
+import sampleSize from "../public/sample-size.png";
 import weather from "../public/weather.png";
 import { useState } from "react";
 import Timeline from "@/components/timeline";
@@ -420,39 +419,39 @@ export default function Home() {
             </div>
             <div className="shadow-lg rounded-xl text-center">
               <a
-                href="https://project-exercisetracker.kanishk44.repl.co/"
+                href="https://github.com/kanishk44/sample-size-calculator"
                 className="text-teal-600"
                 target="_blank"
               >
                 <Image
-                  src={exerciseTracker}
+                  src={sampleSize}
                   fit={true}
                   style={{ objectFit: "cover" }}
                   alt="Exercise Tracker"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    Exercise Tracker
+                    Sample size calculator
                   </h3>
                   <p className="text-gray-800 py-2 dark:text-slate-200">
-                    This project is a part of FreeCodeCamp&apos;s Back End
-                    Development and APIs certification. It is a simple web
-                    application that allows users to create an account, log
-                    exercises, and track their exercise progress. It is
-                    developed using Node.js, Express, and MongoDB.
+                    Built a Flask app with user authentication, to calculate the
+                    sample size required for a given confidence level, margin of
+                    error, and population size using statistical operations
+                    using Pandas, which is stored in user profile. Used SOLID
+                    principles to write clean, maintainable code. Containerized
+                    the app using Docker.
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
-                      href="https://github.com/kanishk44/fcc-exercise-tracker"
+                      href="https://github.com/kanishk44/sample-size-calculator"
                       className="text-teal-600"
                       target="_blank"
                     >
                       <AiFillGithub className="text-2xl" />
                     </a>
                     <span className="flex flex-row gap-6">
-                      <FaNodeJs className="text-2xl" />
-                      <SiExpress className="text-2xl" />
-                      <SiMongodb className="text-2xl" />
+                      <SiPython className="text-2xl" />
+                      <SiFlask className="text-2xl" />
                     </span>
                   </div>
                 </div>
@@ -487,8 +486,8 @@ export default function Home() {
                       <AiFillGithub className="text-2xl" />
                     </a>
                     <span className="flex flex-row gap-6">
-                      <SiPython className="text-2xl" />
-                      <SiFlask className="text-2xl" />
+                      <SiNextdotjs className="text-2xl" />
+                      <SiTailwindcss className="text-2xl" />
                     </span>
                   </div>
                 </div>
@@ -525,9 +524,7 @@ export default function Home() {
                       <AiFillGithub className="text-2xl" />
                     </a>
                     <span className="flex flex-row gap-6">
-                      <SiNextdotjs className="text-2xl" />
-                      <SiTailwindcss className="text-2xl" />
-                      <SiMongodb className="text-2xl" />
+                      <FaReact className="text-2xl" />
                     </span>
                   </div>
                 </div>
