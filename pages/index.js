@@ -107,12 +107,12 @@ export default function Home() {
             <a href="https://github.com/kanishk44" target="_blank">
               <AiFillGithub className="dark: text-gray-700 dark:text-slate-100 cursor-pointer" />
             </a>
-            <a href="https://kanishkwrites.hashnode.dev/" target="_blank">
+            {/* <a href="https://kanishkwrites.hashnode.dev/" target="_blank">
               <SiHashnode className="text-violet-700 cursor-pointer" />
             </a>
             <a href="https://twitter.com/kanishk_777" target="_blank">
               <AiFillTwitterCircle className="text-sky-400 cursor-pointer" />
-            </a>
+            </a> */}
           </div>
           <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mx-auto mt-20 overflow-hidden md:h-96 md:w-96">
             <Image
