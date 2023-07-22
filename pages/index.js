@@ -146,7 +146,7 @@ export default function Home() {
               various personas, create user stories and product backlog items
               and work towards it, along with other teams in class assigned
               different parts of the project. We faced multiple challenges while
-              integrating the API’s, database schemas, but I got to learn a lot
+              integrating the API's, database schemas, but I got to learn a lot
               about what it is like to build a product from scratch using agile
               methodologies, working with cross-functional teams and
               stakeholders, managing my own team.

@@ -116,9 +116,9 @@ const Timeline = ({ darkMode }) => {
           <p>
             Collaborated with teams across design, tech, in a fast-paced startup
             environment. Developed, documented and maintained code for in-house
-            and client websites using HTML, SCSS, Bootstrap, JavaScript and
-            jQuery. Tested sites in various browsers and devices to ensure
-            cross-browser compatibility and responsiveness.
+            and client websites using React & SASS. Tested sites in various
+            browsers and devices to ensure cross-browser compatibility and
+            responsiveness.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
