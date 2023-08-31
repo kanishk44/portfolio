@@ -80,16 +80,17 @@ const Timeline = ({ darkMode }) => {
             ensuring efficient data storage and retrieval for the applications.
             Employed indexing and query optimization techniques to enhance
             database performance and responsiveness. Conducted code reviews,
-            evaluating team members' code for adherence to coding standards,
-            functionality, and overall quality. Provided constructive feedback
-            and suggestions for improvement, fostering a culture of continuous
-            learning and growth. Contributed to the deployment process of
-            applications using tools like Docker, ensuring smooth transitions
-            from development to production environments. Collaborated with
-            DevOps teams to address any deployment-related issues and optimize
-            application performance. Participated in team discussions to provide
-            feedback on code quality, architecture, and application design,
-            encouraging iterative development and improvement.
+            evaluating team members&apos; code for adherence to coding
+            standards, functionality, and overall quality. Provided constructive
+            feedback and suggestions for improvement, fostering a culture of
+            continuous learning and growth. Contributed to the deployment
+            process of applications using tools like Docker, ensuring smooth
+            transitions from development to production environments.
+            Collaborated with DevOps teams to address any deployment-related
+            issues and optimize application performance. Participated in team
+            discussions to provide feedback on code quality, architecture, and
+            application design, encouraging iterative development and
+            improvement.
           </p>
         </VerticalTimelineElement>
 
