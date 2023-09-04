@@ -55,7 +55,7 @@ const Timeline = ({ darkMode }) => {
             boxShadow: "0 0 0 4px #00bbf0",
           }}
           // Replace IconComponent with your custom icon component
-          icon={<GiNotebook />}
+          icon={<BsFillBriefcaseFill />}
         >
           <h3 className="text-white text-xl">Full-Stack Developer</h3>
           <h4 className="vertical-timeline-element-subtitle">
