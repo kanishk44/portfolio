@@ -129,11 +129,18 @@ export default function Home() {
               Hey there! I&apos;m Kanishk...
             </h2>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-300">
-              I have recently graduated from New Jersey Institute of Technology
-              with a degree in Computer Science. I&apos;m a self taught
-              developer with over 3 years of experience in software development.
-              I&apos;m always eager to build software which would help people in
-              their day to day life.
+              As an experienced Software Engineer, I've refined my skills in
+              crafting compelling user interfaces and robust server-side
+              solutions using React.js and Node.js. My expertise extends to AWS,
+              where I've mastered cloud-based deployment and scalability
+              strategies. I recently embarked on an exciting project inspired by
+              LinkedIn, showcasing my ability to transform intricate ideas into
+              practical applications. I'm actively seeking Frontend, Backend, or
+              Full-Stack Developer roles in the United States, and I'm eager to
+              collaborate with like-minded professionals to create innovative
+              web solutions that make a lasting impact on society. When I'm not
+              immersed in code, I'm indulging in my love for literature, staying
+              active through fitness, and experimenting in the culinary arts.
               <br />
               <br />
               Want to find out more about my experience? Check out my{" "}

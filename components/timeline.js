@@ -57,40 +57,15 @@ const Timeline = ({ darkMode }) => {
           // Replace IconComponent with your custom icon component
           icon={<BsFillBriefcaseFill />}
         >
-          <h3 className="text-white text-xl">Full-Stack Developer</h3>
+          <h3 className="text-white text-xl">Teaching Assistant</h3>
           <h4 className="vertical-timeline-element-subtitle">
             New Jersey Institute of Technology
           </h4>
           <p>
-            Collaborated closely with the development team to conceptualize,
-            design, and refine web applications using React, Node.js, Express,
-            and MongoDB. Contributed to the creation of interactive and
-            user-friendly interfaces that aligned with project requirements and
-            facilitated seamless user experiences. Played a key role in
-            developing full stack applications by implementing frontend
-            components using React, building RESTful APIs with Node.js and
-            Express, and integrating MongoDB databases for data storage.
-            Provided hands-on guidance and assistance to team members, fostering
-            an environment of knowledge sharing and mutual support. Assisted in
-            designing and implementing new features for web applications,
-            ensuring they met functional specifications and followed best coding
-            practices. Conducted thorough testing of features, identifying, and
-            addressing any bugs or issues to deliver high-quality software to
-            users. Utilized MongoDB to design and implement database schemas,
-            ensuring efficient data storage and retrieval for the applications.
-            Employed indexing and query optimization techniques to enhance
-            database performance and responsiveness. Conducted code reviews,
-            evaluating team members&apos; code for adherence to coding
-            standards, functionality, and overall quality. Provided constructive
-            feedback and suggestions for improvement, fostering a culture of
-            continuous learning and growth. Contributed to the deployment
-            process of applications using tools like Docker, ensuring smooth
-            transitions from development to production environments.
-            Collaborated with DevOps teams to address any deployment-related
-            issues and optimize application performance. Participated in team
-            discussions to provide feedback on code quality, architecture, and
-            application design, encouraging iterative development and
-            improvement.
+            ● Worked closely with the course instructor to ideate & design lab
+            assignments for linux kernel programming.
+            <br /> ● Assisted a class of 39 students with lab assignments &
+            homework related to linux kernel and writing simple kernel modules.
           </p>
         </VerticalTimelineElement>
 
@@ -98,7 +73,7 @@ const Timeline = ({ darkMode }) => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#00bbf0", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid #00bbf0" }}
-          date="Oct 2019 - Aug 2021"
+          date="Oct 2020 - Aug 2021"
           iconStyle={{
             background: "#00bbf0",
             color: "#fff",
@@ -112,36 +87,34 @@ const Timeline = ({ darkMode }) => {
             Frontend Developer
           </h4>
           <p>
-            Developed and maintained robust, scalable, and user-friendly web
-            applications for both in-house projects and client websites, using
-            React for frontend components and SASS for styling. Utilized best
-            practices and coding standards to write clean, efficient, and
-            documented code that met project requirements and design
-            specifications. Worked closely with multidisciplinary teams,
-            including designers and technical experts, in a fast-paced startup
-            environment to bring innovative web projects to life. Engaged in
-            collaborative brainstorming sessions to contribute ideas, provide
-            technical insights, and ensure seamless integration of design and
-            functionality. Participated actively in cross-functional meetings,
-            sharing progress updates, and seeking feedback to align development
-            efforts with project goals. Embraced an agile development approach,
-            participating in daily scrums to provide updates on progress,
-            identify potential roadblocks, and adjust tasks as needed to meet
-            sprint objectives. Collaborated with product owners and stakeholders
-            to refine user stories and ensure clear understanding of project
-            requirements and priorities. Adapted to changing project needs and
-            requirements, effectively managing priorities and delivering
-            incremental updates within sprint cycles. Conducted thorough testing
-            of websites across various browsers and devices to ensure consistent
-            user experience and cross-browser compatibility. Employed responsive
-            design principles and media queries to create layouts that
-            seamlessly adjusted to different screen sizes, contributing to an
-            enhanced user experience. Implemented comprehensive testing
-            strategies, including unit testing and integration testing, to
-            identify and rectify potential bugs, glitches, and performance
-            bottlenecks. Collaborated with quality assurance teams to perform
-            thorough testing, ensuring high-quality, bug-free deliverables that
-            met project specifications and user expectations.
+            ● Spearheaded the development, debugging, and continuous maintenance
+            of React-based code for both in-house and client websites, resulting
+            in a 20% reduction in post-launch bug reports.
+            <br /> ● Collaborated seamlessly with cross-functional teams,
+            including designers and technical experts, in a startup setting,
+            contributing to accelerating project timelines by 15% through
+            effective teamwork and agile methodologies.
+            <br /> ● Successfully followed agile methodologies, actively
+            participating in daily scrum meetings and sprint planning,
+            maintaining open and effective communication channels with
+            stakeholders, resulting in a 10% increase in project alignment with
+            business goals.
+            <br /> ● Conducted rigorous cross-browser compatibility and
+            responsive design testing on websites, ensuring optimal user
+            experiences and achieving a 98% satisfaction rate among end-users
+            due to the elimination of compatibility issues.
+            <br /> ● Established performance optimization techniques, resulting
+            in a 30% improvement in website loading times and overall user
+            satisfaction.
+            <br /> ● Ensured compliance with WCAG accessibility standards,
+            making websites accessible to all users and expanding the audience
+            reach.
+            <br /> ● Developed a reusable component library in React,
+            streamlining development processes and reducing development time by
+            15%.
+            <br /> ● Proficiently utilized code versioning tools like Git and
+            collaboration platforms such as GitHub to streamline team workflows
+            and code management.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
