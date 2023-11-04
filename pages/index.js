@@ -133,7 +133,7 @@ export default function Home() {
               crafting compelling user interfaces and robust server-side
               solutions using React.js and Node.js. My expertise extends to AWS,
               where I've mastered cloud-based deployment and scalability
-              strategies. I recently embarked on an exciting project inspired by
+              strategies. I recently embarked an an exciting project inspired by
               LinkedIn, showcasing my ability to transform intricate ideas into
               practical applications. I'm actively seeking Frontend, Backend, or
               Full-Stack Developer roles in the United States, and I'm eager to
