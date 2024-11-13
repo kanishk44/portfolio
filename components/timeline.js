@@ -19,6 +19,31 @@ const Timeline = ({ darkMode }) => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#00bbf0", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid #00bbf0" }}
+          date="May 2024 - July 2024"
+          iconStyle={{
+            background: "#00bbf0",
+            color: "#fff",
+            boxShadow: "0 0 0 4px #00bbf0",
+          }}
+          // Replace IconComponent with your custom icon component
+          icon={<BsFillBriefcaseFill />}
+        >
+          <h3 className="text-white text-xl">Backend Developer</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Zoomlocal Pvt. Ltd.
+          </h4>
+          <p>
+            ● Built a Social Media Posts Aggregator for given Industry,
+            Hashtags, and social handles for platforms like Twitter, Instagram,
+            Facebook & YouTube using Node.js/Vue.js and deployed it on GCP
+            (Google Cloud Platform).
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#00bbf0", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid #00bbf0" }}
           date="Sept 2021 - May 2023"
           iconStyle={{
             background: "#00bbf0",
