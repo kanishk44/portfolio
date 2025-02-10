@@ -42,7 +42,7 @@ import expenseTracker from "../public/expense-tracker.png";
 import groupChat from "../public/group-chat.png";
 import { useState } from "react";
 import Timeline from "@/components/timeline";
-import resumePDF from "../public/Kanishk_Shedsale_Resume.pdf";
+import resumePDF from "../public/Kanishk_Khedkar_Resume.pdf";
 import portfolio from "../public/portfolio.png";
 
 export default function Home() {
@@ -84,7 +84,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-emerald-300">
-              Kanishk Shedsale
+              Kanishk Khedkar
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-100">
               Full Stack Developer
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <a
-              href="https://www.linkedin.com/in/kanishk-shedsale/"
+              href="https://www.linkedin.com/in/kanishk-khedkar/"
               target="_blank"
             >
               <AiFillLinkedin className="text-blue-500 cursor-pointer" />
