@@ -5,7 +5,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FaGraduationCap, FaUser } from "react-icons/fa";
-import { GiNotebook } from "react-icons/gi";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 
 const Timeline = ({ darkMode }) => {

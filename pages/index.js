@@ -15,14 +15,12 @@ import {
 } from "react-icons/fa";
 import {
   SiExpress,
-  SiPython,
-  SiFlask,
+  SiSocketdotio,
   SiRedux,
   SiJavascript,
   SiDocker,
   SiNextdotjs,
-  SiStyledcomponents,
-  SiHashnode,
+  SiMysql,
   SiAmazons3,
   SiAmazonec2,
   SiCplusplus,
@@ -33,14 +31,15 @@ import {
   SiPostgresql,
   SiFirebase,
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 import Image from "next/image";
 import devkanishk from "../public/dev-kanishk-avatar.webp";
 import nextjsBlog from "../public/nextjs-blog.png";
 import chatgpt from "../public/chatgpt.png";
-import sortingVisualizer from "../public/sorting-viz.png";
+import charityDonation from "../public/charity-donation.png";
 import linkedinClone from "../public/linkedin-clone.png";
-import sampleSize from "../public/sample-size.png";
-import weather from "../public/weather.png";
+import expenseTracker from "../public/expense-tracker.png";
+import groupChat from "../public/group-chat.png";
 import { useState } from "react";
 import Timeline from "@/components/timeline";
 import resumePDF from "../public/Kanishk_Shedsale_Resume.pdf";
@@ -129,18 +128,20 @@ export default function Home() {
               Hey there! I&apos;m Kanishk...
             </h2>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-300">
-              {`As an experienced Software Engineer, I've refined my skills in
-              crafting compelling user interfaces and robust server-side
-              solutions using React.js and Node.js. My expertise extends to AWS,
-              where I've mastered cloud-based deployment and scalability
-              strategies. I recently embarked an an exciting project inspired by
-              LinkedIn, showcasing my ability to transform intricate ideas into
-              practical applications. I'm actively seeking Frontend, Backend, or
-              Full-Stack Developer roles in the United States, and I'm eager to
-              collaborate with like-minded professionals to create innovative
-              web solutions that make a lasting impact on society. When I'm not
-              immersed in code, I'm indulging in my love for literature, staying
-              active through fitness, and experimenting in the culinary arts.`}
+              {`As a Full Stack Developer with over a year of specialized experience in the MERN stack, I bring a proven track record of building scalable, high-performance web applications. My expertise spans both frontend and backend development, with a particular focus on React.js, Node.js, and cloud platforms including AWS and GCP.
+
+At Vidushi Infotech, I drove significant improvements in web application performance, achieving a 30% reduction in loading times and maintaining a 98% user satisfaction rate through meticulous cross-browser compatibility testing. My commitment to accessibility and WCAG standards ensures inclusive web experiences, while my implementation of performance optimization techniques has consistently delivered measurable results.
+
+In my recent freelance work with ZoomLocal, I demonstrated my ability to architect complex solutions by developing a Social Media Posts Aggregator that seamlessly integrated with multiple platforms. My project portfolio showcases my capability to build robust, full-stack applications, from real-time chat systems supporting 10,000+ concurrent users to secure payment processing platforms for charitable organizations.
+
+Armed with a Master's in Computer Science from NJIT (GPA: 3.8/4.0) and expertise in modern development tools and methodologies, I specialize in:
+- Building scalable applications using React.js, Node.js, and Express
+- Implementing secure authentication and data handling with JWT and cloud services
+- Optimizing database performance across MySQL, MongoDB, and PostgreSQL
+- Streamlining development workflows through CI/CD with Jenkins and Docker
+- Creating responsive, user-centric interfaces that drive engagement
+
+I'm passionate about crafting efficient, maintainable solutions that solve real-world problems while delivering exceptional user experiences.`}
               <br />
               <br />
               Want to find out more about my experience? Check out my{" "}
@@ -288,6 +289,156 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="shadow-lg rounded-xl text-center">
               <a
+                href="https://github.com/kanishk44/expense-tracker"
+                className="text-teal-600"
+                target="_blank"
+              >
+                <Image
+                  src={expenseTracker}
+                  fit={true}
+                  style={{ objectFit: "cover" }}
+                  alt="Expense Tracker"
+                />
+                <div className="p-5">
+                  <h3 className="text-2xl font-bold dark:text-emerald-300">
+                    Expense Tracker
+                  </h3>
+                  <p className="text-gray-800 py-2 dark:text-slate-200">
+                    A modern full-stack expense management solution built with
+                    Node.js, Express, MongoDB, and Bootstrap. Track your
+                    personal finances with ease through an intuitive and
+                    responsive interface.
+                  </p>
+                  <div className="mt-5 flex flex-row gap-2 justify-between">
+                    <a
+                      href="https://github.com/kanishk44/expense-tracker"
+                      className="text-teal-600"
+                      target="_blank"
+                    >
+                      <AiFillGithub className="text-2xl" />
+                    </a>
+                    <span className="flex flex-row gap-6">
+                      <FaNodeJs className="text-2xl" />
+                      <SiMongodb className="text-2xl" />
+                      <SiAmazons3 className="text-2xl" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="shadow-lg rounded-xl text-center">
+              <a
+                href="https://github.com/kanishk44/charity-donation"
+                className="text-teal-600"
+                target="_blank"
+              >
+                <Image
+                  src={charityDonation}
+                  fit={true}
+                  style={{ objectFit: "cover" }}
+                  alt="Charity Donation Platform"
+                />
+                <div className="p-5">
+                  <h3 className="text-2xl font-bold dark:text-emerald-300">
+                    Charity Donation Platform
+                  </h3>
+                  <p className="text-gray-800 py-2 dark:text-slate-200">
+                    A web-based platform that connects donors with verified
+                    charities, facilitating secure donations and transparent
+                    impact reporting.
+                  </p>
+                  <div className="mt-5 flex flex-row gap-2 justify-between">
+                    <a
+                      href="https://github.com/kanishk44/charity-donation"
+                      className="text-teal-600"
+                      target="_blank"
+                    >
+                      <AiFillGithub className="text-2xl" />
+                    </a>
+                    <span className="flex flex-row gap-6">
+                      <FaNodeJs className="text-2xl" />
+                      <SiMysql className="text-3xl" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="shadow-lg rounded-xl text-center">
+              <a
+                href="https://github.com/kanishk44/group-chat"
+                className="text-teal-600"
+                target="_blank"
+              >
+                <Image
+                  src={groupChat}
+                  fit={true}
+                  style={{ objectFit: "cover" }}
+                  alt="Group Chat"
+                />
+                <div className="p-5">
+                  <h3 className="text-2xl font-bold dark:text-emerald-300">
+                    Group Chat
+                  </h3>
+                  <p className="text-gray-800 py-2 dark:text-slate-200">
+                    A full-featured real-time chat application built with
+                    Node.js, Express, MySQL, Socket.IO, and AWS S3 for file
+                    sharing.
+                  </p>
+                  <div className="mt-5 flex flex-row gap-2 justify-between">
+                    <a
+                      href="https://github.com/kanishk44/group-chat"
+                      className="text-teal-600"
+                      target="_blank"
+                    >
+                      <AiFillGithub className="text-2xl" />
+                    </a>
+                    <span className="flex flex-row gap-6">
+                      <FaNodeJs className="text-2xl" />
+                      <SiSocketdotio className="text-2xl" />
+                      <SiAmazons3 className="text-2xl" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="shadow-lg rounded-xl text-center">
+              <a
+                href="https://kanishkcodes.tech"
+                className="text-teal-600"
+                target="_blank"
+              >
+                <Image
+                  src={portfolio}
+                  fit={true}
+                  style={{ objectFit: "cover" }}
+                  alt="Porfolio Website"
+                />
+                <div className="p-5">
+                  <h3 className="text-2xl font-bold dark:text-emerald-300">
+                    Portfolio (This Website)
+                  </h3>
+                  <p className="text-gray-800 py-2 dark:text-slate-200">
+                    This is my portfolio website built with Next.js and
+                    TailwindCSS. It is hosted on Vercel.
+                  </p>
+                  <div className="flex flex-row gap-2 justify-between">
+                    <a
+                      href="https://github.com/kanishk44/portfolio"
+                      className="text-teal-600"
+                      target="_blank"
+                    >
+                      <AiFillGithub className="text-2xl" />
+                    </a>
+                    <span className="flex flex-row gap-6">
+                      <SiNextdotjs className="text-2xl" />
+                      <SiTailwindcss className="text-2xl" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="shadow-lg rounded-xl text-center">
+              <a
                 href="https://linkedin-clone-gamma-blush.vercel.app/"
                 className="text-teal-600"
                 target="_blank"
@@ -349,158 +500,6 @@ export default function Home() {
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
                       href="https://github.com/kanishk44/ChatGPT-React"
-                      className="text-teal-600"
-                      target="_blank"
-                    >
-                      <AiFillGithub className="text-2xl" />
-                    </a>
-                    <span className="flex flex-row gap-6">
-                      <FaReact className="text-2xl" />
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="shadow-lg rounded-xl text-center">
-              <a
-                href="https://sorting-visualizer-orpin.vercel.app/"
-                className="text-teal-600"
-                target="_blank"
-              >
-                <Image
-                  src={sortingVisualizer}
-                  fit={true}
-                  style={{ objectFit: "cover" }}
-                  alt="Sorting Visualizer"
-                />
-                <div className="p-5">
-                  <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    Sorting Visualizer
-                  </h3>
-                  <p className="text-gray-800 py-2 dark:text-slate-200">
-                    A sorting visualizer built with React, Styled Components
-                    andZustland. It visualizes the sorting process of various
-                    sorting algorithms such as Bubble Sort, Merge Sort, Quick
-                    Sort, and more, and compares their time taken, number of
-                    swpas, and comparisons.
-                  </p>
-                  <div className="mt-5 flex flex-row gap-2 justify-between">
-                    <a
-                      href="https://github.com/kanishk44/sorting-visualizer"
-                      className="text-teal-600"
-                      target="_blank"
-                    >
-                      <AiFillGithub className="text-2xl" />
-                    </a>
-                    <span className="flex flex-row gap-6">
-                      <FaReact className="text-2xl" />
-                      <SiStyledcomponents className="text-2xl" />
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="shadow-lg rounded-xl text-center">
-              <a
-                href="https://github.com/kanishk44/sample-size-calculator"
-                className="text-teal-600"
-                target="_blank"
-              >
-                <Image
-                  src={sampleSize}
-                  fit={true}
-                  style={{ objectFit: "cover" }}
-                  alt="Exercise Tracker"
-                />
-                <div className="p-5">
-                  <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    Sample size calculator
-                  </h3>
-                  <p className="text-gray-800 py-2 dark:text-slate-200">
-                    Built a Flask app with user authentication, to calculate the
-                    sample size required for a given confidence level, margin of
-                    error, and population size using statistical operations
-                    using Pandas, which is stored in user profile. Used SOLID
-                    principles to write clean, maintainable code. Containerized
-                    the app using Docker.
-                  </p>
-                  <div className="mt-5 flex flex-row gap-2 justify-between">
-                    <a
-                      href="https://github.com/kanishk44/sample-size-calculator"
-                      className="text-teal-600"
-                      target="_blank"
-                    >
-                      <AiFillGithub className="text-2xl" />
-                    </a>
-                    <span className="flex flex-row gap-6">
-                      <SiPython className="text-2xl" />
-                      <SiFlask className="text-2xl" />
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="shadow-lg rounded-xl text-center">
-              <a
-                href="https://kanishkcodes.co"
-                className="text-teal-600"
-                target="_blank"
-              >
-                <Image
-                  src={portfolio}
-                  fit={true}
-                  style={{ objectFit: "cover" }}
-                  alt="Porfolio Website"
-                />
-                <div className="p-5">
-                  <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    Portfolio (This Website)
-                  </h3>
-                  <p className="text-gray-800 py-2 dark:text-slate-200">
-                    This is my portfolio website built with Next.js and
-                    TailwindCSS. It is hosted on Vercel.
-                  </p>
-                  <div className="flex flex-row gap-2 justify-between">
-                    <a
-                      href="https://github.com/kanishk44/portfolio"
-                      className="text-teal-600"
-                      target="_blank"
-                    >
-                      <AiFillGithub className="text-2xl" />
-                    </a>
-                    <span className="flex flex-row gap-6">
-                      <SiNextdotjs className="text-2xl" />
-                      <SiTailwindcss className="text-2xl" />
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="shadow-lg rounded-xl text-center">
-              <a
-                href="https://github.com/kanishk44/skycast"
-                className="text-teal-600"
-                target="_blank"
-              >
-                <Image
-                  src={weather}
-                  fit={true}
-                  style={{ objectFit: "cover" }}
-                  alt="Next.js Blog"
-                />
-                <div className="p-5">
-                  <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    SkyCast
-                  </h3>
-                  <p className="text-gray-800 py-2 dark:text-slate-200">
-                    A simple weather application built with React & Semantic UI
-                    react library. Retrieved the current weather and forecast
-                    data like temperature, humidity, sunrise, and sunset from
-                    the OpenWeatherMap API based on the user&apos;s location
-                  </p>
-                  <div className="mt-5 flex flex-row gap-2 justify-between">
-                    <a
-                      href="https://github.com/kanishk44/skycast"
                       className="text-teal-600"
                       target="_blank"
                     >
