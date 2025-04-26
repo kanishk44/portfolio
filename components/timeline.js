@@ -130,7 +130,7 @@ const Timeline = ({ darkMode }) => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#00bbf0", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid #00bbf0" }}
-          date="Oct 2019 - Aug 2021"
+          date="Oct 2020 - Aug 2021"
           iconStyle={{
             background: "#00bbf0",
             color: "#fff",
