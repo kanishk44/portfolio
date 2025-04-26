@@ -28,7 +28,7 @@ const Timeline = ({ darkMode }) => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#00bbf0", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid #00bbf0" }}
-          date="March 2024 - Present"
+          date="March 2025 - Present"
           iconStyle={{
             background: "#00bbf0",
             color: "#fff",
@@ -42,8 +42,9 @@ const Timeline = ({ darkMode }) => {
             Zoomlocal Pvt. Ltd.
           </h4>
           <p>
-            ● Working on a social media workflow automation tool to help businesses manage their social media content generation with
-            Vue.js, Node.js, Firebase, & GCP.
+            ● Working on a social media workflow automation tool to help
+            businesses manage their social media content generation with Vue.js,
+            Node.js, Firebase, & GCP.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -143,10 +144,14 @@ const Timeline = ({ darkMode }) => {
             Frontend Developer
           </h4>
           <p>
-            ● Developed and maintained React-based code for in-house and client websites, reducing bug reports by 20%
-            <br /> ● Collaborated with cross-functional teams in an agile environment, accelerating project timelines by 15%
-            <br /> ● Optimized website performance by 30% and ensured cross-browser compatibility with 98% user satisfaction
-            <br /> ● Implemented WCAG accessibility standards and utilized Git for streamlined workflow management
+            ● Developed and maintained React-based code for in-house and client
+            websites, reducing bug reports by 20%
+            <br /> ● Collaborated with cross-functional teams in an agile
+            environment, accelerating project timelines by 15%
+            <br /> ● Optimized website performance by 30% and ensured
+            cross-browser compatibility with 98% user satisfaction
+            <br /> ● Implemented WCAG accessibility standards and utilized Git
+            for streamlined workflow management
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
