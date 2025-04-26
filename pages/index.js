@@ -26,10 +26,10 @@ import {
   SiCplusplus,
   SiVisualstudiocode,
   SiPlanetscale,
-  SiTailwindcss,
   SiMongodb,
   SiPostgresql,
   SiFirebase,
+  SiTailwindcss,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import Image from "next/image";
@@ -40,6 +40,8 @@ import charityDonation from "../public/charity-donation.png";
 import linkedinClone from "../public/linkedin-clone.png";
 import expenseTracker from "../public/expense-tracker.png";
 import groupChat from "../public/group-chat.png";
+import restaurantDelivery from "../public/restaurant-delivery.png";
+import mailboxClient from "../public/mailbox-client.png";
 import { useState } from "react";
 import Timeline from "@/components/timeline";
 import resumePDF from "../public/Kanishk_Khedkar_Resume.pdf";
@@ -128,20 +130,10 @@ export default function Home() {
               Hey there! I&apos;m Kanishk...
             </h2>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-300">
-              {`As a Full Stack Developer with over a year of specialized experience in the MERN stack, I bring a proven track record of building scalable, high-performance web applications. My expertise spans both frontend and backend development, with a particular focus on React.js, Node.js, and cloud platforms including AWS and GCP.
-
-At Vidushi Infotech, I drove significant improvements in web application performance, achieving a 30% reduction in loading times and maintaining a 98% user satisfaction rate through meticulous cross-browser compatibility testing. My commitment to accessibility and WCAG standards ensures inclusive web experiences, while my implementation of performance optimization techniques has consistently delivered measurable results.
-
-In my recent freelance work with ZoomLocal, I demonstrated my ability to architect complex solutions by developing a Social Media Posts Aggregator that seamlessly integrated with multiple platforms. My project portfolio showcases my capability to build robust, full-stack applications, from real-time chat systems supporting 10,000+ concurrent users to secure payment processing platforms for charitable organizations.
-
-Armed with a Master's in Computer Science from NJIT (GPA: 3.8/4.0) and expertise in modern development tools and methodologies, I specialize in:
-- Building scalable applications using React.js, Node.js, and Express
-- Implementing secure authentication and data handling with JWT and cloud services
-- Optimizing database performance across MySQL, MongoDB, and PostgreSQL
-- Streamlining development workflows through CI/CD with Jenkins and Docker
-- Creating responsive, user-centric interfaces that drive engagement
-
-I'm passionate about crafting efficient, maintainable solutions that solve real-world problems while delivering exceptional user experiences.`}
+              {`I'm a Full Stack Developer with expertise in MERN stack (Node.js, React, MongoDB/MySQL) and cloud platforms like AWS and GCP. With over a year of professional experience and a Master's in Computer Science from New Jersey Institute of Technology, I specialize in building scalable web applications with responsive design and robust backend architectures.
+Currently working with ZoomLocal on social media workflow automation tools, I've previously developed various full-stack projects including expense trackers, mailbox clients, and e-commerce platforms. My technical toolkit includes JavaScript (ES6), React/Next.js, Node.js/Express, TailwindCSS, and database systems like MySQL, MongoDB, and Firebase.
+I'm passionate about creating efficient, user-friendly applications that solve real-world problems, with particular interests in payment integrations, authentication systems, and cloud deployments using AWS EC2, S3, and Firebase.
+Let's connect and build something amazing together!`}
               <br />
               <br />
               Want to find out more about my experience? Check out my{" "}
@@ -439,30 +431,31 @@ I'm passionate about crafting efficient, maintainable solutions that solve real-
             </div>
             <div className="shadow-lg rounded-xl text-center">
               <a
-                href="https://linkedin-clone-gamma-blush.vercel.app/"
+                href="https://github.com/kanishk44/restaurant-delivery"
                 className="text-teal-600"
                 target="_blank"
               >
                 <Image
-                  src={linkedinClone}
+                  src={restaurantDelivery}
                   fit={true}
                   style={{ objectFit: "cover" }}
-                  alt="LinkedIn Clone"
+                  alt="Restaurant Delivery App"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    LinkedIn Clone
+                    Restaurant Delivery App
                   </h3>
                   <p className="text-gray-800 py-2 dark:text-slate-200">
-                    Set up authentication using Firebase, and built a React app,
-                    for login, register, creating/updating profile, adding
-                    profile picture, creating/updating/deleting posts, liking
-                    and commenting, adding connections, and user search
-                    functionality.
+                    A full-stack food ordering platform built with React, Vite,
+                    Firebase, and TailwindCSS that enables customers to browse
+                    menus, place orders, and track deliveries in real-time. The
+                    application features user authentication, order management,
+                    and separate admin interfaces for restaurant staff to
+                    process incoming orders efficiently.
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
-                      href="https://github.com/kanishk44/linkedin-clone"
+                      href="https://github.com/kanishk44/restaurant-delivery"
                       className="text-teal-600"
                       target="_blank"
                     >
@@ -471,6 +464,7 @@ I'm passionate about crafting efficient, maintainable solutions that solve real-
                     <span className="flex flex-row gap-6">
                       <FaReact className="text-2xl" />
                       <SiFirebase className="text-2xl" />
+                      <SiTailwindcss className="text-2xl" />
                     </span>
                   </div>
                 </div>
@@ -478,28 +472,31 @@ I'm passionate about crafting efficient, maintainable solutions that solve real-
             </div>
             <div className="shadow-lg rounded-xl text-center">
               <a
-                href="https://chat-gpt-react-seven.vercel.app/"
+                href="https://github.com/kanishk44/mailbox-client"
                 className="text-teal-600"
                 target="_blank"
               >
                 <Image
-                  src={chatgpt}
+                  src={mailboxClient}
                   fit={true}
                   style={{ objectFit: "cover" }}
-                  alt="ChatGPT Clone"
+                  alt="Mailbox Client"
                 />
                 <div className="p-5">
                   <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    ChatGPT Clone
+                    Mailbox Client
                   </h3>
                   <p className="text-gray-800 py-2 dark:text-slate-200">
-                    A clone of the popular AI chatbot ChatGPT. It uses the
-                    OpenAI API to generate responses to user messages for a
-                    variety of topics.
+                    A modern email management solution developed using React,
+                    Node.js, and MongoDB that provides a seamless email
+                    experience with features like JWT authentication, real-time
+                    updates, and a rich text editor. The application employs
+                    custom React hooks to optimize API calls while maintaining
+                    responsive design across all devices.
                   </p>
                   <div className="mt-5 flex flex-row gap-2 justify-between">
                     <a
-                      href="https://github.com/kanishk44/ChatGPT-React"
+                      href="https://github.com/kanishk44/mailbox-client"
                       className="text-teal-600"
                       target="_blank"
                     >
@@ -507,6 +504,8 @@ I'm passionate about crafting efficient, maintainable solutions that solve real-
                     </a>
                     <span className="flex flex-row gap-6">
                       <FaReact className="text-2xl" />
+                      <FaNodeJs className="text-2xl" />
+                      <SiMongodb className="text-2xl" />
                     </span>
                   </div>
                 </div>
