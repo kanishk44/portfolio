@@ -55,9 +55,9 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark " : ""}>
       <Head>
-        <title>Kanishk Shedsale Portfolio</title>
+        <title>Kanishk Khedkar Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Kanishk Shedsale Portfolio" />
+        <meta name="description" content="Kanishk Khedkar Portfolio" />
       </Head>
 
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
@@ -355,80 +355,7 @@ Let's connect and build something amazing together!`}
                 </div>
               </a>
             </div>
-            <div className="shadow-lg rounded-xl text-center">
-              <a
-                href="https://github.com/kanishk44/group-chat"
-                className="text-teal-600"
-                target="_blank"
-              >
-                <Image
-                  src={groupChat}
-                  fit={true}
-                  style={{ objectFit: "cover" }}
-                  alt="Group Chat"
-                />
-                <div className="p-5">
-                  <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    Group Chat
-                  </h3>
-                  <p className="text-gray-800 py-2 dark:text-slate-200">
-                    A full-featured real-time chat application built with
-                    Node.js, Express, MySQL, Socket.IO, and AWS S3 for file
-                    sharing.
-                  </p>
-                  <div className="mt-5 flex flex-row gap-2 justify-between">
-                    <a
-                      href="https://github.com/kanishk44/group-chat"
-                      className="text-teal-600"
-                      target="_blank"
-                    >
-                      <AiFillGithub className="text-2xl" />
-                    </a>
-                    <span className="flex flex-row gap-6">
-                      <FaNodeJs className="text-2xl" />
-                      <SiSocketdotio className="text-2xl" />
-                      <SiAmazons3 className="text-2xl" />
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="shadow-lg rounded-xl text-center">
-              <a
-                href="https://kanishkcodes.tech"
-                className="text-teal-600"
-                target="_blank"
-              >
-                <Image
-                  src={portfolio}
-                  fit={true}
-                  style={{ objectFit: "cover" }}
-                  alt="Porfolio Website"
-                />
-                <div className="p-5">
-                  <h3 className="text-2xl font-bold dark:text-emerald-300">
-                    Portfolio (This Website)
-                  </h3>
-                  <p className="text-gray-800 py-2 dark:text-slate-200">
-                    This is my portfolio website built with Next.js and
-                    TailwindCSS. It is hosted on Vercel.
-                  </p>
-                  <div className="flex flex-row gap-2 justify-between">
-                    <a
-                      href="https://github.com/kanishk44/portfolio"
-                      className="text-teal-600"
-                      target="_blank"
-                    >
-                      <AiFillGithub className="text-2xl" />
-                    </a>
-                    <span className="flex flex-row gap-6">
-                      <SiNextdotjs className="text-2xl" />
-                      <SiTailwindcss className="text-2xl" />
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
+
             <div className="shadow-lg rounded-xl text-center">
               <a
                 href="https://github.com/kanishk44/restaurant-delivery"
@@ -506,6 +433,80 @@ Let's connect and build something amazing together!`}
                       <FaReact className="text-2xl" />
                       <FaNodeJs className="text-2xl" />
                       <SiMongodb className="text-2xl" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="shadow-lg rounded-xl text-center">
+              <a
+                href="https://github.com/kanishk44/group-chat"
+                className="text-teal-600"
+                target="_blank"
+              >
+                <Image
+                  src={groupChat}
+                  fit={true}
+                  style={{ objectFit: "cover" }}
+                  alt="Group Chat"
+                />
+                <div className="p-5">
+                  <h3 className="text-2xl font-bold dark:text-emerald-300">
+                    Group Chat
+                  </h3>
+                  <p className="text-gray-800 py-2 dark:text-slate-200">
+                    A full-featured real-time chat application built with
+                    Node.js, Express, MySQL, Socket.IO, and AWS S3 for file
+                    sharing.
+                  </p>
+                  <div className="mt-5 flex flex-row gap-2 justify-between">
+                    <a
+                      href="https://github.com/kanishk44/group-chat"
+                      className="text-teal-600"
+                      target="_blank"
+                    >
+                      <AiFillGithub className="text-2xl" />
+                    </a>
+                    <span className="flex flex-row gap-6">
+                      <FaNodeJs className="text-2xl" />
+                      <SiSocketdotio className="text-2xl" />
+                      <SiAmazons3 className="text-2xl" />
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="shadow-lg rounded-xl text-center">
+              <a
+                href="https://kanishkcodes.tech"
+                className="text-teal-600"
+                target="_blank"
+              >
+                <Image
+                  src={portfolio}
+                  fit={true}
+                  style={{ objectFit: "cover" }}
+                  alt="Porfolio Website"
+                />
+                <div className="p-5">
+                  <h3 className="text-2xl font-bold dark:text-emerald-300">
+                    Portfolio (This Website)
+                  </h3>
+                  <p className="text-gray-800 py-2 dark:text-slate-200">
+                    This is my portfolio website built with Next.js and
+                    TailwindCSS. It is hosted on Vercel.
+                  </p>
+                  <div className="flex flex-row gap-2 justify-between">
+                    <a
+                      href="https://github.com/kanishk44/portfolio"
+                      className="text-teal-600"
+                      target="_blank"
+                    >
+                      <AiFillGithub className="text-2xl" />
+                    </a>
+                    <span className="flex flex-row gap-6">
+                      <SiNextdotjs className="text-2xl" />
+                      <SiTailwindcss className="text-2xl" />
                     </span>
                   </div>
                 </div>
